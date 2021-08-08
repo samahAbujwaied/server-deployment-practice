@@ -16,6 +16,6 @@ describe('Api req', ()=> {
         const response = await request.get('/');
         expect(response.status).toEqual(200);
         console.log(response.text);
-        expect(response.text).toEqual('Main page coming here!!');
+        expect(response.text).toEqual('Home route');
     });
 });
